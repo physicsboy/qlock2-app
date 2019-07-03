@@ -1,0 +1,14 @@
+.letter {
+  color: #101010;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.highlight {
+  color: white;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+}

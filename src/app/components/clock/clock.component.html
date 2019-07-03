@@ -1,0 +1,11 @@
+<table class="container">
+    <tr class="row" *ngFor="let row of data">
+        <td *ngFor="let letter of row">
+            <div 
+                class="letter"
+                [ngClass]="{highlight: hours && minutes && letter.active}">
+                    {{letter.value | lowercase}}
+            </div>
+        </td>
+    </tr>
+</table>
